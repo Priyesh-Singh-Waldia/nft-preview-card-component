@@ -70,14 +70,14 @@ p {
   width: 300px;
   height: 300px;
   border-radius: 10px;
-  background-color: var(--cyan);
+  background-color: hsl(178, 100%, 50%, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .bg:hover {
-  opacity: 0.6;
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -126,5 +126,5 @@ p {
   bottom: 0;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 60%, 53%);
 }
